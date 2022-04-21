@@ -12,7 +12,8 @@ data_frame=pd.DataFrame({
     })
 
 ```
-```
+
+```python
 def read_from_csv(filename):
     with open (filename) as f:
         dataset=pd.read_csv(f)
