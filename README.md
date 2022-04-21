@@ -12,3 +12,12 @@ data_frame=pd.DataFrame({
     })
 
 ```
+```
+def read_from_csv(filename):
+    with open (filename) as f:
+        dataset=pd.read_csv(f)
+#     print(dataset.head(20))
+#     print(dataset.dtypes)
+    return dataset
+dataset=read_from_csv("cities.csv")
+dataset ```
