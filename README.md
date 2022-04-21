@@ -12,7 +12,7 @@ data_frame=pd.DataFrame({
     })
 
 ```
-
+# Load csv or Excel file
 ```python
 def read_from_csv(filename):
     with open (filename) as f:
