@@ -1,7 +1,7 @@
 # pandas
 pandas
 # Create DataFrame and series 
-
+# make it simple
 ```python
 
 import pandas as pd
