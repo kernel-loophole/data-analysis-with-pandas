@@ -1,0 +1,5 @@
+if (self.CavalryLogger) { CavalryLogger.start_js_script(document.currentScript); }/*FB_PKG_DELIM*/
+
+__d("formatDurationSeconds",["fbt","padNumber"],(function(a,b,c,d,e,f,g,h){function a(a){var b=Math.floor(a/3600),d=Math.floor(a/60%60);a=Math.floor(a%60);if(b)return h._("{hours}:{minutes}:{seconds}",[h._param("hours",b),h._param("minutes",c("padNumber")(d,2)),h._param("seconds",c("padNumber")(a,2))]);else return h._("{minutes}:{seconds}",[h._param("minutes",d),h._param("seconds",c("padNumber")(a,2))])}g["default"]=a}),98);
+__d("oz-player/shims/interfaces/IOzWorkerClient",[],(function(a,b,c,d,e,f){"use strict";a=function(a){this.response=a.response,this.lastRequestUrl=a.lastRequestUrl};f.ResponseAndMetadata=a}),66);
+__d("VideoHomeTypedLoggerLite",["generateLiteTypedLogger"],(function(a,b,c,d,e,f){"use strict";e.exports=b("generateLiteTypedLogger")("logger:VideoHomeLoggerConfig")}),null);
